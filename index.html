@@ -1,0 +1,112 @@
+<html>
+<head>
+  <title>Desa Bener</title>
+  <link rel="shortcut icon" href="portalkuh/file/portal/img/img/LOGOATAS.png">
+  <link rel="stylesheet" type="text/css" href="/boot/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="/boot/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="boot/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="png/madiun.png">
+    <link rel="stylesheet" type="text/css" href="boot/style.css">
+    <script src="boot/jquery.min.js"></script>
+    <script type="text/javascript" src="sejarah.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+    });
+});
+</script>
+</head>
+<body>
+	<script type="text/javascript">
+		alert("Haiiiiiiii..............Selamat Datang Di Welcome")
+	</script>
+	<div class="transparan"></div>
+	<div class="atas">
+		<h2><marquee behavior="alternate" onmouseover="this.stop()" onmouseout="this.start()">SELAMAT DATANG DI PORTAL Desa Bener Kecamatan saradan</marquee></h2>
+		<div align="center" class="info">
+      <br><br>
+			<h1>Desa Bener, Kecamatan Saradan<br/>
+			    KAB. MADIUN, JAWA TIMUR</h1>
+			<img src="png/madiun.png" width="250px" height="250px">
+			<h3>Pilih Salah Satu Menu Dibawah<br>
+				Untuk Melihat Menu Lainnya</h3>
+		  </div>
+    
+	</div>
+	<center><button id="flip" class="button-menu" href="">Klik  Disini  Untuk  Menu</button></center>
+	<div id="panel" class="konten">
+      <div class="kotak">
+          <div class="kotak-dalam"><img src="png/madiun.png"></div>
+            <div class="button"><a href="http://www.madiunkab.go.id/"><button class="tombol" target="_blank">Website</button></a></div>
+      </div>
+      <div class="kotak">
+          <div class="kotak-dalam"><img src="png/wiki.png"></div>
+            <div class="button"><a href="https://id.wikipedia.org/wiki/Bener,_Saradan,_Madiun"><button class="tombol">Desa Bener</button></a></div>
+      </div>
+      <div class="kotak">
+          <div class="kotak-dalam"><img src="png/lecture.png"></div>
+            <div class="button"><a href="#"><button class="tombol">Kegiatan</button></a></div>
+      </div>
+      <div class="kotak">
+          <div class="kotak-dalam"><img src="png/ebook.png"></div>
+            <div class="button"><a href="#"><button class="tombol">Ebook</button></a></div>
+      </div>
+      <div class="kotak">
+            <div class="kotak-dalam"><img src="png/library.png"></div>
+              <div class="button"><a href="#"><button class="tombol">Perpustakaan</button></a></div>
+      </div>
+      <div class="kotak">
+            <div class="kotak-dalam"><img src="png/video-chat.png"></div>
+              <div class="button"><a href="#"><button class="tombol">Contact</button></a></div>
+      </div>
+      <div class="kotak">
+            <div class="kotak-dalam"><img src="png/email-1.png"></div>
+                <div class="button"><a href="#"><button class="tombol">E-Mail</button></a></div>
+      </div>
+      <div class="kotak">
+            <div class="kotak-dalam"><img src="png/pertanian.png"></div>
+                <div class="button"><a href="#"><button class="tombol">Pertanian</button></a></div>
+      </div>
+      <div class="kotak">
+            <div class="kotak-dalam"><img src="png/remas.png"></div>
+                <div class="button"><a href="#"><button class="tombol">Remaja Masjid</button></a></div>
+      </div>
+      <div class="kotak">
+            <div class="kotak-dalam"><img src="png/pariwisata.png"></div>
+                <div class="button"><a href="#"><button class="tombol">Pariwisata</button></a></div>
+      </div>
+      <div class="kotak-dalam-banget">
+      	
+      </div>
+  	<div class="container" style="margin-bottom: 100px;">
+  		<div class="div-dalam-bawah" align="center">
+     	<h2 style="position: static;">Sejarah Desa Bener</h2>
+     	<button class="btn btn-danger" onclick="typeWritter()">Kepoin Yukk Buat Sejarah Desa Bener >_<</button>
+     	<p id="sejarah"></p>
+  		</div>
+  	</div>
+  	<script type="text/javascript">
+  			var i = 0;
+	var txt = 'Cieeee.......Kepo..............................................................................................................................Madiun is a city in the western part of East Java, Indonesia, known for its agricultural center. It was formerly (until 2010) the capital of the Madiun Regency, but is now administratively separated from the regency.Madiun, located 169 km south west of Surabaya, covers an area of 33.92 sq. km, and had a population of 170,964 at the 2010 Census;[1] the latest official estimate (as of 2014) is 175,767. This town is an average of 63 metres above sea level and lies on the Madiun River, a tributary of the Bengawan Solo River. It is surrounded by a number of mountains, including Mount Wilis (2,169 m) to the east, to the south the Kapur Selatan range (500–1000 m) and to the west Mount Lawu (3,285 m). Madiun has an average temperature of 20-35 degrees Celsius.'
+	var speed = 100;
+
+	function typeWritter(){
+		if(i < txt.length){
+			document.getElementById('sejarah').innerHTML += txt.charAt(i);
+			i++;
+			setTimeout(typeWritter, speed);
+		}
+	}
+  	</script>
+  </div>
+  <div></div>
+    <div class="footer" style="margin-top: 250px; margin-bottom: 30px;"><p>Copyright &copy <a href="https://www.facebook.com/profile.php?id=100009090312853">Angga Nur</a></p>
+    <a href="https://www.facebook.com/profile.php?id=100009090312853"><button class="btn btn-primary"><span class="fa fa-facebook"></span>  | Facebook</button></a>
+    <a href="#"><button style="margin: 10px;" class="btn btn-danger"><span class="fa fa-facebook"></span>  | Path</button></a>
+    <a href="https://twitter.com/angganur76"><button class="btn btn-info"><span class="fa fa-twitter">  | Twitter</span></button></a>
+    <a href="https://www.instagram.com/angga_nur_/"><button class="btn btn-success"><span class="fa fa-instagram">  | Instagram</span></button></a>
+    <a href="https://github.com/angga-nur"><button class="btn btn-danger"><span class="fa fa-github">  | Github</span></button></a>
+    <p><a href="#">Desa Bener Kecamatan Saradan</a></p></div>
+</body>
+</html>
